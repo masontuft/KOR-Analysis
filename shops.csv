@@ -1,0 +1,9 @@
+id,"shop_name","email","password","sub_Id","invoice_Id","plan_type","shop_code","shop_token","phone_number","sub_activity","Auth0_sub_id"
+12,"Apple Test","Mason","60d3109db5471fc5e2a834644c8501d6d2e1a5300c31e76cad465241688e24b2","fadsjkl;fdsajkl;fdajkl","7","basic","deRnewiSmOrw","0ivkOhajBGERHhS9At2cEyHrosvLhLk7","12345678901","active",""
+13,"JMR Cycling","masontuft@gmail.com","e7bf8b5555fe0a5a111923eeb569eca6bcb4ac1650faeb6fcb2adc658fd85bef","AzqOyjUv1MRBR6vNF","1","pro","JMR153","TlcckoxIWxk6y7OWk7HWJzEnIu1H2QWg","12088663640","active","auth0|62eca7b53ab935c46f20130a"
+26,"Rolling H Cycles","rollinghcycles@gmail.com","f889b52ff7fa090f333c623ea1c9443a313e7db2beeb80a64b2342d3e56e9a45","pilot","2","premium","RHC347","kk3snFLGa3F6M70zCray3SUnA9jPQ8WD","12084667655","active","auth0|62f16aecc0c6c7196cf52199"
+71,"Test Shop","jmrcycling@gmail.com",NULL,"Azz3c0Uv1T45q3dzj",NULL,"family","TS592","8gDktuDKs9x0kwl71t8vfVyGTMx5KoAg","2088663640","active","auth0|68ae3f2d46c8246b8ada5506"
+90,"Epic Bike Team","",NULL,"beta-admin-created","pending","beta","EBT712","NgJJO049YRjRyyJxJwnChjbzdZ2w40OZ","","active",NULL
+91,"Test116","test116@test.com",NULL,"family_sub_1768489885049","family_invoice_1768489885049","family","TS879","4YlhD6ngRhX7CnA06gPhj8J6ND9DvzJw","1161161166","active","auth0|6969039b9950305f307ec154"
+93,"Tuft Family","masontuft+test@gmail.com",NULL,"AzqMnOVDDGXz78p5y","4","family","TF299","DXRhMK2hvfEpQzTwKHEGtfyTfnrLrWhU","2088663640","active","auth0|69ac822017830a1e6af14174"
+94,"Brown Family Bikes","Cdb0187@gmail.com",NULL,"16CFbFVDEe4ZPA0DK","5","family","BF257","EWtkU3xHwA7G7nG1pEC1NKpMjd7qw3OH","2084093962","active","auth0|69acd217a5d899cfb4f82978"

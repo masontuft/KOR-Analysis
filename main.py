@@ -281,13 +281,19 @@ class KORApp:
             ax2.set_title('Service Events per Month')
             ax2.set_xlabel('Month')
             ax2.set_ylabel('Events')
-            ax2.tick_params(axis='x', rotation=45, labelsize=7)
+            stride = max(1, len(monthly) // 10)
+            ax2.set_xticks(range(0, len(monthly), stride))
+            ax2.set_xticklabels(
+                [monthly.index[i] for i in range(0, len(monthly), stride)],
+                rotation=45, ha='right', fontsize=8,
+            )
         else:
             ax2.text(0.5, 0.5, 'No dated records', ha='center', va='center',
                      transform=ax2.transAxes)
             ax2.set_title('Service Events per Month')
 
         fig.tight_layout()
+        fig.subplots_adjust(left=0.18)
         canvas = FigureCanvasTkAgg(fig, master=chart_frame)
         canvas.draw()
         canvas.get_tk_widget().pack(fill='both', expand=True)

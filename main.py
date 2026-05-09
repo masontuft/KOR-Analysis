@@ -166,9 +166,17 @@ class KORApp:
             .value_counts()
         )
         colors_pie = plt.cm.tab20.colors[:len(type_counts)]
-        ax2.pie(type_counts.values, labels=type_counts.index, autopct='%1.0f%%',
-                colors=colors_pie, startangle=90,
-                wedgeprops=dict(edgecolor='white', linewidth=1))
+        wedges, _, autotexts = ax2.pie(
+            type_counts.values,
+            labels=None,
+            autopct=lambda pct: f'{pct:.0f}%' if pct >= 4 else '',
+            colors=colors_pie, startangle=90,
+            wedgeprops=dict(edgecolor='white', linewidth=1),
+        )
+        for t in autotexts:
+            t.set_fontsize(8)
+        ax2.legend(wedges, type_counts.index, loc='center left',
+                   bbox_to_anchor=(1, 0.5), fontsize=8, framealpha=0.8)
         ax2.set_title('Bike Type Distribution')
 
         fig.tight_layout()

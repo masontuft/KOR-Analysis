@@ -28,8 +28,8 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |----------|----------|:------:|--------------------------------------------|:-----------:|
 |4/30      |   1:45   | Plan   | Ran a plan through AI                      | 2 Hours     |
 |5/2       |   9:00   |Program | Programmed the Data retrieval and sorting  | 5 Hours     |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+|5/4       |   9:00   |Program | Programmed the GUI                         |  1.5        |
+|5/5       |   1:15   |Program | Debugged the software and improved the system |  2 hours |
 |          |          |        |                                            |             |
 |          |          |        |                                            |             |
 
@@ -39,7 +39,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
-|TP - Team Project              |                          |
-|MTG - Class Meetings           |                          |
+|IM - Individual Module         |  11 hours                |
+|TP - Team Project              |  3 hours                 |
+|MTG - Class Meetings           |   4 hours                |
 |**TOTAL**                      |                          |

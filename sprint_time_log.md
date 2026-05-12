@@ -1,8 +1,8 @@
 # CSE 310 - Sprint Time Log
 
-Name:
+Name: Mason Tuft
 
-Sprint #:
+Sprint #: 1
 
 ## Instructions
 
@@ -42,4 +42,4 @@ _Note: Add more rows as needed._
 |IM - Individual Module         |  11 hours                |
 |TP - Team Project              |  3 hours                 |
 |MTG - Class Meetings           |   4 hours                |
-|**TOTAL**                      |                          |
+|**TOTAL**                      |   19 hours               |
